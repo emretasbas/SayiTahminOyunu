@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         btnYenile = (Button)findViewById(R.id.buttonYenile);
 
         Random rnd = new Random();
-        tut = rnd.nextInt(26);
+        tut = 1+rnd.nextInt(26);
 
         btnTahmin.setOnClickListener(new View.OnClickListener() {
             @Override
